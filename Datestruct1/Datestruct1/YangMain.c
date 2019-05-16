@@ -8,7 +8,8 @@ main() {
 	 system("pause" );
 	 int List[] = {3,6,2,7,4,1};
 	 int left,  right,Sum;
-	  Sum=DivideAndConquer(List[left], left=0, right=5);
+	  //Sum=DivideAndConquer(List[left], left=0, right=5);
+	  Sum = DivideAndConquer(List, 0, 5);
 	  printf("%d", Sum);
 	  system("pause");
 	// MaxsubseqSum3( List[left], 6);

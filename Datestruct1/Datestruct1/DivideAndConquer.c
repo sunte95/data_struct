@@ -30,7 +30,7 @@ int DivideAndConquer(int List[], int left, int right) { /*分治法求List[left]到Li
 
 	}
 	MAxRightBorderSum = 0; RightBorderSum = 0;
-	for (i = center + 1; 1 <= right; i++) {/*从中线向右扫描*/
+	for (i = center + 1; i <= right; i++) {/*从中线向右扫描*/
 		RightBorderSum += List[i];
 		if (RightBorderSum > MAxRightBorderSum)
 			MAxRightBorderSum = RightBorderSum;

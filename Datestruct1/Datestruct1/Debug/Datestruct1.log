@@ -1,1 +1,4 @@
-﻿  Datestruct1.vcxproj -> F:\VStudio\Datestruct1\Debug\Datestruct1.exe
+﻿  YangMain.c
+e:\github\data_struct\datestruct1\datestruct1\yangmain.c(10): warning C4101: “left”: 未引用的局部变量
+e:\github\data_struct\datestruct1\datestruct1\yangmain.c(10): warning C4101: “right”: 未引用的局部变量
+  Datestruct1.vcxproj -> E:\github\data_struct\Datestruct1\Debug\Datestruct1.exe
